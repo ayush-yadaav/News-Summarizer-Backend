@@ -23,4 +23,4 @@ app.get("/", (req, res) => res.send("📰 News Summarizer API is running"));
 //   console.log(`🚀 Server running on port ${process.env.PORT}`)
 // );
 
-module.exports = app
+export default app;
